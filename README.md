@@ -17,10 +17,10 @@
 
 4. Log Analysis
 A service that collects log data, analyzes it and returns a report
-To setup, 
-    - install dependencies as in requirements.txt 
-    - cd to log_analysis folder and run `uvicorn log_server:app`
 - Can you point out the issues with the code?
 - What would you do differently?
-
+- To setup, 
+    - cd to log_analysis folder
+    - install dependencies as in requirements.txt 
+    - run `uvicorn log_server:app`
 
