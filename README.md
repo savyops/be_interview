@@ -10,3 +10,16 @@
 - How would you scale this to 1000+ concurrent executions?
 - How would you allow some imports (e.g., numpy) but not others (os)?
 - How would you cache repeated code executions?
+
+3. LLM Repititive Response
+- Your application can calls an LLM for repititive questions
+- How would you optimize this for cost without trading off accuracy.
+
+4. Log Analysis
+A service that collects log data, analyzes it and returns a report
+- Can you point out the issues with the code?
+- What would you do differently?
+To run, 
+    - install dependencies as in requirements.txt 
+    - cd to log_analysis folder and run `uvicorn log_server:app`
+
